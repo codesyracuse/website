@@ -4,9 +4,9 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => {
+const Mentor = () => {
   const data = useStaticQuery(graphql`
-    query GetPrograms {
+    query GetMentor {
       pages: allMarkdownRemark {
         nodes {
           html
@@ -16,13 +16,14 @@ const IndexPage = () => {
   `)
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Mentor" />
       <div
         className="blog-post-content"
-        dangerouslySetInnerHTML={{ __html: data.pages.nodes[2].html }}
+        dangerouslySetInnerHTML={{ __html: data.pages.nodes[1].html }}
       />
+      <Link to="/">Go back to the homepage</Link>
     </Layout>
   )
 }
 
-export default IndexPage
+export default Mentor
