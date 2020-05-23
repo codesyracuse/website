@@ -32,6 +32,7 @@ const Header = ({ siteTitle, siteSubtitle }) => (
       <h2 style={{ 
         color: `#d4d0ab`,
         fontWeight: `500`,
+        fontSize: '1.6rem',
         }}>
         {siteSubtitle}
       </h2>

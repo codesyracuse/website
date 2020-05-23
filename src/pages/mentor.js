@@ -19,7 +19,7 @@ const Mentor = () => {
       <SEO title="Mentor" />
       <div
         className="blog-post-content"
-        dangerouslySetInnerHTML={{ __html: data.pages.nodes[1].html }}
+        dangerouslySetInnerHTML={{ __html: data.pages.nodes[2].html }}
       />
       <Link to="/">Go back to the homepage</Link>
     </Layout>

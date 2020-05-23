@@ -18,9 +18,14 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <div
-        className="blog-post-content"
-        dangerouslySetInnerHTML={{ __html: data.pages.nodes[2].html }}
+        className="blog-post-content programs"
+        dangerouslySetInnerHTML={{ __html: data.pages.nodes[1].html }}
       />
+      <div class="invert">
+        <section class="container">
+          <Link to='/mentor'>Learn about our mentor program</Link>
+        </section>
+      </div>
     </Layout>
   )
 }

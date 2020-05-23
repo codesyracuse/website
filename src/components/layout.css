@@ -6,6 +6,7 @@ html {
 body {
   margin: 0;
   background: #f5f6f7;
+  font-size: 1.4rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -253,8 +254,9 @@ h2 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 2rem;
   line-height: 1.1;
+  font-weight: 600;
 }
 h3 {
   margin-left: 0;
@@ -272,6 +274,7 @@ h3 {
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
+  font-weight: 400;
 }
 h4 {
   margin-left: 0;
@@ -335,7 +338,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 2.45rem;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -345,6 +348,7 @@ ul {
   margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
+  font-size: 1.2rem;
 }
 ol {
   margin-left: 1.45rem;
@@ -387,6 +391,7 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-size: 1.2rem;
 }
 figure {
   margin-left: 0;
@@ -511,7 +516,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: .5rem;
 }
 ol li {
   padding-left: 0;
@@ -621,4 +626,31 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.programs {
+  padding: 0;
+}
+.mission {
+  max-width: 1020px;
+  margin: auto;
+  line-height: 1.4;
+  padding: 2rem;
+}
+.mission p {
+  font-size: 1.6rem;
+}
+.mission > p:first-child {
+  margin-bottom: 5rem;
+}
+.container {
+  max-width: 1020px;
+  margin: auto;
+  padding: 2rem;
+}
+.invert {
+  background-color:rgb(44, 53, 87);
+  color: #fff;
+}
+.invert a {
+  color: #fff;
 }
