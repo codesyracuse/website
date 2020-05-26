@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Coalition of Digital Engagements in Syracuse`,
-    description: `growing the local technology community`,
+    description: `CODES`,
     author: `Peter B Smith, Mike Vormwald, Annalena Davis, Joshua M Schultz, Dragana Drobnjak`,
   },
   plugins: [

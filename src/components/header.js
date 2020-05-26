@@ -5,37 +5,43 @@ import React from "react"
 const Header = ({ siteTitle, siteSubtitle }) => (
   <header
     style={{
-      background: `#2c3557`,
-      marginBottom: `1.45rem`,
+      background: `#fff`,
+      marginBottom: `.5rem`,
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
+        margin: `6rem auto 0`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `0 1rem`,
+        textAlign: `center`,
       }}
     >
+      <h2 style={{ 
+        color: `#1d2121`,
+        fontWeight: `400`,
+        fontSize: '1.6rem',
+        marginBottom:`0`,
+        letterSpacing: `5px`,
+        }}>
+        {siteSubtitle}
+      </h2>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#1d2121`,
             textDecoration: `none`,
             lineHeight: `3.5rem`,
-            fontWeight: `600`,
+            fontWeight: `800`,
+            fontFamily: `Helvetica, sans-serif`,
+            fontSize: `3rem`,
+            letterSpacing: `-3px`,
           }}
         >
           {siteTitle}
         </Link>
       </h1>
-      <h2 style={{ 
-        color: `#d4d0ab`,
-        fontWeight: `500`,
-        fontSize: '1.6rem',
-        }}>
-        {siteSubtitle}
-      </h2>
     </div>
   </header>
 )

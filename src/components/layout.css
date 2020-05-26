@@ -5,7 +5,7 @@ html {
 }
 body {
   margin: 0;
-  background: #f5f6f7;
+  background: #fff;
   font-size: 1.4rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -45,10 +45,16 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  color: rgb(44, 53, 87);
 }
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: none;
+}
+a:focus {
+  background:rgb(44, 53, 87);
+  color: #f5f6f7;     
 }
 abbr[title] {
   border-bottom: none;
@@ -202,8 +208,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -256,7 +262,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 2rem;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: 700;
 }
 h3 {
   margin-left: 0;
@@ -272,7 +278,7 @@ h3 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
+  font-size: 1.6rem;
   line-height: 1.1;
   font-weight: 400;
 }
@@ -391,7 +397,8 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
 }
 figure {
   margin-left: 0;
@@ -517,6 +524,8 @@ th {
 }
 li {
   margin-bottom: .5rem;
+  font-weight: 300;
+  font-size: 1.4rem;
 }
 ol li {
   padding-left: 0;
@@ -631,26 +640,40 @@ pre tt:after {
   padding: 0;
 }
 .mission {
-  max-width: 1020px;
-  margin: auto;
+  max-width: 900px;
+  margin: 0 auto 8rem;
   line-height: 1.4;
-  padding: 2rem;
+  padding: 0 2rem;
+  text-align: center;
 }
 .mission p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  line-height: 1.5S;
+  letter-spacing: -1px;
 }
 .mission > p:first-child {
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
+  font-weight:300;
 }
 .container {
   max-width: 1020px;
   margin: auto;
+  padding: 1rem 2rem;
+}
+.cta-button {
+  background-color: rgb(85, 112, 214);
+  color: #fff;
   padding: 2rem;
+  border-radius: 50px;
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,.2);
 }
-.invert {
-  background-color:rgb(44, 53, 87);
-  color: #fff;
+.mentor h2 {
+  max-width: 400px;
 }
-.invert a {
-  color: #fff;
+.mentor {
+  background-color: #f3f3f1;
+  padding: 5rem 0;
+}
+.mentor a {
+  font-weight: 600;
 }
