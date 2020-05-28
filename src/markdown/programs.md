@@ -12,12 +12,10 @@ CODES is on a mission to serve and grow the technology community in Syracuse, Ne
 </section>
 
 <section class="mentor">
+
 <div class="container">
 
   ## Join the CODES Mentorship Program
-
-</div>
-<div class="container">
 
   This is about the improvement of skills as a developer or software engineer. Less like job training and more like gym training. Everyone wants to make progress, and there is only one way to do it: put in your reps. 
 
@@ -31,8 +29,12 @@ CODES is on a mission to serve and grow the technology community in Syracuse, Ne
 
 <div class="container">
   <h2>Grow as a Developer</h2>
-  <div class="container">
+  <div class="container flex">
+  <div class="flex-two-column">
+  <div class="row">
+  <div class="dot">+</div>
   <h3>For Trainees</h3>
+  </div>
 
   <h4>Requirements:</h4>
 
@@ -43,19 +45,23 @@ CODES is on a mission to serve and grow the technology community in Syracuse, Ne
   
 
   [Sign up to be a Trainee](https://docs.google.com/forms/d/e/1FAIpQLScJRa6ZB9CC35EdvVopv2rSzTE-QAM2t0cLOTcs6bVDW344AQ/viewform?usp=sf_link)
-
   </div>
-</div>
+  <div class="flex-two-column">
+  <div class="row">
+  <div class="dot">+</div>
+  <h3>For Mentors</h3>
+  </div>
 
-<div class="container">
-<div class="container">
+  <h4>Requirements:</h4>
 
-### For Mentors   
+  * Know more than your trainee
+  * Be 18 or older
 
-  When you fill out the mentor form, we make a match with a trainee based on your skills and experience. Whether you have two years of experience, or twenty, you just have to know more than your trainee. You also must be 18 or older. 
+  When you fill out the mentor form, we make a match with a trainee based on your skills and experience. Whether you have two years of experience, or twenty, you just have to be able to help guide your trainee in their learning.
 
   [Sign up to be a Mentor](https://docs.google.com/forms/d/e/1FAIpQLScaGyaNwkpaqcOQEy6ZthOw9b3G_16wKUoZ_DFucPU1z19hHQ/viewform?usp=sf_link)
 
+</div>
 </div>
 </div>
 </section>

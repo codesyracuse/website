@@ -45,7 +45,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: rgb(44, 53, 87);
+  color: rgb(44, 53, 87); 
 }
 a:active,
 a:hover {
@@ -254,13 +254,13 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 2.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.1;
   font-weight: 700;
 }
@@ -272,15 +272,14 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 2.45rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.1;
-  font-weight: 400;
+  font-weight: 700;
 }
 h4 {
   margin-left: 0;
@@ -661,19 +660,71 @@ pre tt:after {
   padding: 1rem 2rem;
 }
 .cta-button {
-  background-color: rgb(85, 112, 214);
+  background-color: #5570d6;
   color: #fff;
   padding: 2rem;
   border-radius: 50px;
   box-shadow: 0 8px 20px 0 rgba(0,0,0,.2);
 }
-.mentor h2 {
-  max-width: 400px;
+@media screen and (max-width:800px){
+  .cta-button {
+    padding: 1.5rem;
+  }
 }
 .mentor {
   background-color: #f3f3f1;
-  padding: 5rem 0;
+  padding: 2rem 0 10rem;
+}
+.mentor > .container {
+  margin-top: 4rem;
+}
+.mentor h2 {
+  max-width: 500px;
 }
 .mentor a {
   font-weight: 600;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+div.flex-two-column {
+  max-width: 50%;
+}
+div.flex-two-column:first-of-type {
+  padding-right: 5%;
+}
+div.flex-two-column:nth-child(2) {
+  padding-left: 5%;
+}
+@media screen and (max-width:800px){
+  .flex {
+    flex-direction: column;
+  }
+  div.flex-two-column {
+    max-width: 100%;
+  }
+  div.flex-two-column:first-of-type {
+    padding: 1rem 0 0;
+  }
+  div.flex-two-column:nth-child(2) {
+    padding: 3rem 0 0;
+  }
+}
+.row > * {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.dot {
+  background-color: #5570d6;
+  display: inline-block;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 2rem;
+  vertical-align: middle;
+  padding: 1rem 1.2rem;
 }
