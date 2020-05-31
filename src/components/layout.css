@@ -688,8 +688,11 @@ pre tt:after {
 .flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0;
+}
+.flex > * {
+  margin: 5px;
 }
 div.flex-two-column {
   max-width: 50%;
@@ -701,7 +704,7 @@ div.flex-two-column:nth-child(2) {
   padding-left: 5%;
 }
 @media screen and (max-width:800px){
-  .flex {
+  .flex-col-row {
     flex-direction: column;
   }
   div.flex-two-column {
@@ -712,6 +715,9 @@ div.flex-two-column:nth-child(2) {
   }
   div.flex-two-column:nth-child(2) {
     padding: 3rem 0 0;
+  }
+  .hide-on-mobile {
+    display:none;
   }
 }
 .row > * {
@@ -727,4 +733,15 @@ div.flex-two-column:nth-child(2) {
   font-size: 2rem;
   vertical-align: middle;
   padding: 1rem 1.2rem;
+}
+footer > div {
+  max-width: 960px;
+  padding: 5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+footer > div p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
