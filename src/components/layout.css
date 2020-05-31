@@ -688,7 +688,7 @@ pre tt:after {
 .flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0;
 }
 .flex > * {
@@ -733,4 +733,15 @@ div.flex-two-column:nth-child(2) {
   font-size: 2rem;
   vertical-align: middle;
   padding: 1rem 1.2rem;
+}
+footer > div {
+  max-width: 960px;
+  padding: 5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+footer > div p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
 }

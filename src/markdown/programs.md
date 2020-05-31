@@ -2,8 +2,6 @@
 path: "/"
 date: "2020-03-22"
 title: "Programs"
-attachments:
-  - "./esteban-lopez-6yjAC0-OwkA-unsplash.jpg"
 ---
 
 <section class="mentor">
