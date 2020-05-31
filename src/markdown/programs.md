@@ -2,14 +2,9 @@
 path: "/"
 date: "2020-03-22"
 title: "Programs"
+attachments:
+  - "./esteban-lopez-6yjAC0-OwkA-unsplash.jpg"
 ---
-<section class="mission">
-
-CODES is on a mission to serve and grow the technology community in Syracuse, New York through education, mentoring, and economic opportunity creation.
-
-<a href="mailto:hi@codesyracuse.org" class="cta-button">hi@codesyracuse.org</a>
-
-</section>
 
 <section class="mentor">
 
@@ -29,7 +24,7 @@ CODES is on a mission to serve and grow the technology community in Syracuse, Ne
 
 <div class="container">
   <h2>Grow as a Developer</h2>
-  <div class="container flex">
+  <div class="container flex flex-col-row">
   <div class="flex-two-column">
   <div class="row">
   <div class="dot">+</div>

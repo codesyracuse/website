@@ -691,6 +691,9 @@ pre tt:after {
   justify-content: space-between;
   padding: 0;
 }
+.flex > * {
+  margin: 5px;
+}
 div.flex-two-column {
   max-width: 50%;
 }
@@ -701,7 +704,7 @@ div.flex-two-column:nth-child(2) {
   padding-left: 5%;
 }
 @media screen and (max-width:800px){
-  .flex {
+  .flex-col-row {
     flex-direction: column;
   }
   div.flex-two-column {
@@ -712,6 +715,9 @@ div.flex-two-column:nth-child(2) {
   }
   div.flex-two-column:nth-child(2) {
     padding: 3rem 0 0;
+  }
+  .hide-on-mobile {
+    display:none;
   }
 }
 .row > * {
