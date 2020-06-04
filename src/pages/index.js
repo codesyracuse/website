@@ -24,7 +24,7 @@ const IndexPage = () => {
         <p>CODES is on a mission to serve and grow the technology community in Syracuse, New York through education, mentoring, and creating economic opportunity.</p>
         <a href="mailto:hi@codesyracuse.org" class="cta-button">hi@codesyracuse.org</a>
       </section>
-      <div class="flex">
+      <div class="flex row-images">
         <img src={womenCodingImg} alt="Two women coding" />
         <img class="hide-on-mobile" src={laptopImg} alt="laptop on desk" />
         <img src={menCodingImg} alt="Two men coding" />

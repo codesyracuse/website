@@ -691,8 +691,11 @@ pre tt:after {
   justify-content: space-around;
   padding: 0;
 }
-.flex > * {
-  margin: 5px;
+.row-images > * {
+  margin: 2px;
+  width: 33%;
+  height: auto;
+  object-fit: cover;
 }
 div.flex-two-column {
   max-width: 50%;
@@ -715,6 +718,12 @@ div.flex-two-column:nth-child(2) {
   }
   div.flex-two-column:nth-child(2) {
     padding: 3rem 0 0;
+  }
+  .row-images > * {
+    margin: 2px;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
   }
   .hide-on-mobile {
     display:none;
