@@ -37,7 +37,7 @@ title: "Programs"
   Trainees can have any level of experience, whether you've never coded, have a coding bootcamp certificate, or a college degree in computer science, we'll find the right mentor for you.
   
 
-  [Sign up to be a Trainee](https://docs.google.com/forms/d/e/1FAIpQLScJRa6ZB9CC35EdvVopv2rSzTE-QAM2t0cLOTcs6bVDW344AQ/viewform?usp=sf_link)
+  [Sign up to be a Trainee](https://docs.google.com/forms/d/e/1FAIpQLSdfwoMeOa-MDc3Aog2DHkIh2otvvnqDuQf6Lz6IhXhttVrPvg/viewform?usp=sf_link)
   </div>
   <div class="flex-two-column">
   <div class="row">
@@ -52,7 +52,7 @@ title: "Programs"
 
   When you fill out the mentor form, we make a match with a trainee based on your skills and experience. Whether you have two years of experience, or twenty, you just have to be able to help guide your trainee in their learning.
 
-  [Sign up to be a Mentor](https://docs.google.com/forms/d/e/1FAIpQLScaGyaNwkpaqcOQEy6ZthOw9b3G_16wKUoZ_DFucPU1z19hHQ/viewform?usp=sf_link)
+  [Sign up to be a Mentor](https://docs.google.com/forms/d/e/1FAIpQLSccBRrj28oM6R3mZutSnqV_uyvS1574z_PXlA4wk06takmcCg/viewform?usp=sf_link)
 
 </div>
 </div>
