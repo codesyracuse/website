@@ -8,7 +8,7 @@ title: "Programs"
 
 <div class="container">
 
-  ## Join the CODES Mentorship Program
+  ## Join the Mentor Ship 
 
   This is about the improvement of skills as a developer or software engineer. Less like job training and more like gym training. Everyone wants to make progress, and there is only one way to do it: put in your reps. 
 
@@ -21,7 +21,7 @@ title: "Programs"
 </div>
 
 <div class="container">
-  <h2>Grow as a Developer</h2>
+  <h2>:ship: Set Sail</h2>
   <div class="container flex flex-col-row">
   <div class="flex-two-column">
   <div class="row">

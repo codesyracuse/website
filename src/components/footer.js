@@ -15,7 +15,9 @@ const Footer = ({ siteTitle, siteSubtitle }) => (
             {` `}
             {siteSubtitle}
         </p>
+        <p>On GitHub: <a href="https://github.com/codesyracuse/mentor-ship">Mentor Ship</a> / <a href="https://github.com/codesyracuse/website">Website</a></p>
     </div>
+
   </footer>
 )
 
